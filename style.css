@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 10;
+    padding: 10;
+    background-color: #dae0dd;
+    color: #2c29f1;
+    text-align: 100%;
+ 
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    color: #ebdbdb;
+}
+.headp {
+    color: #fff;
+}
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    border: 4px solid #fff;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size-adjust:0.61;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+   
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(80, 38, 38, 0.1);
+    background-color: transparent;
+    
+    
+}
+
+.about, .skills, .contact, .educational-background, .interests, .projects {
+    max-width: 1400px;
+    margin: auto;
+    text-decoration: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.lists {
+    color: #000000;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+ 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #cfdfd4;
+    color: #141414;
+    margin: 5px 0;
+    padding: 25px;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+.contact p {
+    margin: 5px 0;
+      
+}
+.container a {
+    color:#f50505
+}
+
+.container a:hover {
+    color:#1707ec
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.social-links a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 200px;
+    
+}
+
+
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-links a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-links a span {
+    font-size: 16px;
+    color: #0473e9;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s ease-in-out;
+}
+
+.social-links a:hover img,
+.social-links a:hover span {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.social-links a:hover span {
+    border-bottom: 1px solid #cdcf48;
+}
